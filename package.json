@@ -7,7 +7,10 @@
     "dev": "webpack-dev-server --mode development --devtool eval-cheap-module-source-map --progress ",
     "build": "webpack --mode production",
     "deploy": "firebase deploy",
-    "init": "cd ./functions && npx npm i && cd .. && npm i"
+    "init": "npm run init:client && npm run init:server",
+    "init:client": "npm i",
+    "init:server": "cd ./functions && npx npm i",
+    "up": "sudo npx stmux -w always -e ERROR -m beep,system -- [ [ \"npm run dev\" .. \"cd ./functions && sudo npm run serve\" ] : -s 1/2 ]"
   },
   "keywords": [
     "Template"
@@ -31,6 +34,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
-    "firebase": "^4.12.0"
+    "firebase": "^4.12.0",
+    "stmux": "^1.5.4"
   }
 }

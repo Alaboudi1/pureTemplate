@@ -27,7 +27,7 @@ https://github.com/Alaboudi1/Quoridor
 1. <code> git clone https://github.com/Alaboudi1/pureTemplate.git </code>
 
 2. <code> cd pureTemplate </code> <br>
-3. <code> sudo npm i </code> بدون sudo للويندوز <br>
+3. <code> sudo npm run init </code>  .بدون sudo للويندوز <br>
 4. <code> npm run dev </code> <br>
 5. <code> sudo cd function & npm i </code> بدون sudo للويندوز <br>
 6. <code> npm run start </code> <br>
