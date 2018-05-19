@@ -7,7 +7,7 @@
     "dev": "webpack-dev-server --mode development --devtool eval-cheap-module-source-map --progress ",
     "build": "webpack --mode production",
     "deploy": "firebase deploy",
-    "init": "cd ./functions & npx npm i & cd .. & npm i"
+    "init": "cd ./functions && npx npm i && cd .. && npm i"
   },
   "keywords": [
     "Template"
