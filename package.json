@@ -10,7 +10,7 @@
     "init": "npm run init:client && npm run init:server",
     "init:client": "npm i",
     "init:server": "cd ./functions && npx npm i",
-    "up": "sudo npx stmux -w always -e ERROR -m beep,system -- [ [ \"npm run dev\" .. \"cd ./functions && sudo npm run serve\" ] : -s 1/2 ]"
+    "up": " npx stmux -w always -e ERROR -m beep,system -- [ [ \"npm run dev\" .. \"cd ./functions &&  npm run serve\" ] : -s 1/2 ]"
   },
   "keywords": [
     "Template"
@@ -32,7 +32,6 @@
     "webpack-cli": "^2.1.3",
     "webpack-dev-server": "^3.1.4",
     "stmux": "^1.5.4"
-
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
