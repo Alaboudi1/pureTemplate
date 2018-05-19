@@ -30,7 +30,9 @@ https://github.com/Alaboudi1/Quoridor
 2. <code> cd pureTemplate </code> <br>
 3. <code> sudo npm run init </code>  .بدون sudo للويندوز <br>
 4. <code> sudo npm run up </code> .بدون sudo للويندوز <br>
+5. أفتح http://localhost:8080/ وسيظهر لك Hello World بالأحمر 
 <br>
    والتطوير بإستخدامهWSLإذا تستخدم ويندوز 10، أنصحك بتحميل بيئة نظام أبنتو 
 <br>
 https://docs.microsoft.com/en-us/windows/wsl/install-win10 
+</div>
