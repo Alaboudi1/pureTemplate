@@ -6,6 +6,7 @@
 1. يحتوي على أحدث التقنيات والمكتبات.
 2. إستضافت المشروع عن طريق Firebase.
 3. يوجد خيار لعمل Clould Functions.
+4. الربط مع قاعدة البيانات Firebase.
 
 <br>
 
@@ -28,6 +29,8 @@ https://github.com/Alaboudi1/Quoridor
 
 2. <code> cd pureTemplate </code> <br>
 3. <code> sudo npm run init </code>  .بدون sudo للويندوز <br>
-4. <code> npm run dev </code> <br>
-5. <code> sudo cd function & npm i </code> بدون sudo للويندوز <br>
-6. <code> npm run start </code> <br>
+4. <code> sudo npm run up </code> .بدون sudo للويندوز <br>
+<br>
+   والتطوير بإستخدامهWSLإذا تستخدم ويندوز 10، أنصحك بتحميل بيئة نظام أبنتو 
+<br>
+https://docs.microsoft.com/en-us/windows/wsl/install-win10 
