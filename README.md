@@ -32,8 +32,7 @@ https://github.com/Alaboudi1/Quoridor
 4. <code> sudo npm run up </code> .بدون sudo للويندوز <br>
 5. أفتح http://localhost:8080/ وسيظهر لك Hello World بالأحمر 
 <br>
-
-   والتطوير بإستخدامهWSLإذا تستخدم ويندوز 10، أنصحك بتحميل بيئة نظام أبنتو 
+إذا تستخدم ويندوز 10، أنصحك بتحميل أبنتو والعمل عليه
 <br>
 https://docs.microsoft.com/en-us/windows/wsl/install-win10 
 </div>
